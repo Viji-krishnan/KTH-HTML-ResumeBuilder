@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+  }
+
+body{
+      padding: 15px;
+      margin: 10px;
+      border: 1px solid #888;
+      border-radius: 5px;
+  }
+
+header{
+    width: 100%;
+}
+.profile-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-info .candidate-container{
+    display: block;
+    text-align: center;
+}
+.profile-info .candidate-container .candidate-img{  
+
+    margin: 0px;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+.profile-info .name{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    line-height: 20px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+
+#role{
+    font-size: 20px;
+    font-weight: normal;
+}
+
+
+h2{
+    margin-block-start: 10px;
+    margin-block-end: 10px;
+}
+
+@media only screen and (min-width : 1000px){
+
+    .profile-info{
+        flex-direction: row;
+       
+    
+    }
+    .profile-info .candidate-container{
+        text-align: left;
+
+    }
+
+    .profile-info .name{
+        text-align: left;
+    }
+
+    .wrapper{
+        display: flex;
+        justify-content: space-evenly;
+    }
+ 
+    article{
+        width: 33%;
+    }
+
+    .Job-1{
+        padding-right: 2%;
+    }
+
+    .Job-2{
+        padding-right: 2%;
+    }
+}
